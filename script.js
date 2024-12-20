@@ -27,3 +27,30 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     document.addEventListener('keydown', moveCharacter);
 });
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="character"></div>
+    <script src="script.js"></script>
+</body>
+</html>
+body {
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+}
+
+#character {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+}
